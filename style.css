@@ -1,6 +1,13 @@
 :root{
     --primary:#F2c94C;
 }
+
+body{
+    background-image: url('images/minion2.jpg')
+    
+
+
+}
 textarea {
     display: block;
     width: 100%;
@@ -9,6 +16,7 @@ textarea {
     font-size: large;
     padding-top: 1rem;
     padding-left: 1rem;
+    border-radius: 1rem;
     
 }
 
@@ -20,6 +28,7 @@ textarea {
     border: 1px solid black;
     padding-left: 1rem;
     padding-top: 1rem;
+    border-radius: 1rem;
 }
 
 
@@ -37,11 +46,14 @@ textarea {
 
 }
 
-main{
-    max-width: 600px;
+.main{
+    
+    max-width: 500px;
     display: block;
-    padding: 1rem;
-    margin: auto;
+    padding: 2rem;
+    margin-top: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
 
 #btn-translate{
@@ -51,6 +63,7 @@ main{
     padding: 1rem 2rem;
     font-size: large;
     border-radius:4px;
+    border-radius: 0.5rem;
 }
 
 footer {
